@@ -9,9 +9,9 @@
 ## Управление 
 Все управление происходит при помощи буквенных клавиш. Вводите только буквы
 ## Скриншоты
-Игра
+### Игра
 ![игра](https://github.com/user-attachments/assets/a090bc6c-b804-4289-93b1-836d58c10601)
-Проигрыш
+### Проигрыш
 ![проигрыш](https://github.com/user-attachments/assets/e20faec3-8432-4c1e-8bce-76b6330e4508)
-Победа
+### Победа
 ![победа](https://github.com/user-attachments/assets/994fcbcc-4263-4382-b539-dc8df5503448)
