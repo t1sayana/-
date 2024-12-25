@@ -84,17 +84,17 @@ class Hangman():
         if self.guessed_word == self.secret_word:
             self.taking_guess = False
             screen.fill(pygame.Color(0,0,79), (40, 218, 320, 30))
-            message = self.font.render("YOU WIN!!", True, (255,235,0))
+            message = self.font.render("Вы победили!!", True, (255,235,0))
             screen.blit(message,(152,224))
 
         # lose situation
         elif self.wrong_guess_count == 6:
             self.taking_guess = False
             screen.fill(pygame.Color("grey"), (40, 218, 320, 30))
-            message = self.font.render("GAME OVER YOU LOSE!!", True, (150,0,10))
+            message = self.font.render("   Вы проиграли!!", True, (150,0,10))
             screen.blit(message,(78,224))
             # shows the secret word if the player lose
-            word = self.font.render(f"secret word: {self.secret_word}", True, (255,255,255))
+            word = self.font.render(f"слово: {self.secret_word}", True, (255,255,255))
             screen.blit(word,(10,300))
 
         # removes the instruction message if not taking guesses anymore
@@ -106,15 +106,15 @@ class Hangman():
         # game's main components (no need to update)
         screen.fill(self.background_color)
         self._gallow()
-        instructions = self.font.render('Press any key to take Guess', True, (9,255,78))
+        instructions = self.font.render('Введите любую букву', True, (125,0,0))
         screen.blit(instructions,(35,460))
 
         while self.running:
             # shows the guessed word in the game window
-            guessed_word = self.font.render(f"guessed word: {self.guessed_word}", True, (0,0,138))
+            guessed_word = self.font.render(f"Слово: {self.guessed_word}", True, (0,0,0))
             screen.blit(guessed_word,(10,370))
             # shows the wrong guesses in the game window
-            wrong_guesses = self.font.render(f"wrong guesses: {' '.join(map(str, self.wrong_guesses))}", True, (125,0,0))
+            wrong_guesses = self.font.render(f"Ошибки: {' '.join(map(str, self.wrong_guesses))}", True, (0,0,0))
             screen.blit(wrong_guesses,(10,420))
 
             # checking game state
