@@ -17,8 +17,8 @@ python3 'play module.py'
 Все управление происходит при помощи буквенных клавиш. Вводите только буквы на английской раскладке
 ## Скриншоты
 ### Игра
-![игра](https://github.com/user-attachments/assets/a090bc6c-b804-4289-93b1-836d58c10601)
+![игра](https://github.com/user-attachments/assets/810799bd-7c43-4257-bcca-c645b201512f)
 ### Проигрыш
-![проигрыш](https://github.com/user-attachments/assets/e20faec3-8432-4c1e-8bce-76b6330e4508)
+![проигрыш](https://github.com/user-attachments/assets/00d2e251-10b8-4472-a0c5-7c744a9693b3)
 ### Победа
 ![победа](https://github.com/user-attachments/assets/994fcbcc-4263-4382-b539-dc8df5503448)
